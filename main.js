@@ -132,7 +132,7 @@ const getSongsFromArr = (arr, secTitle) => {
 window.onload = function () {
   search(query, true);
 
-  //load handles on menu items
+  //load handles on different menu items
   document.getElementById("Rock").onclick = () =>
     getSongsFromArr(rockArtists, "Rock");
   document.getElementById("Pop").onclick = () =>
